@@ -1,0 +1,50 @@
+#container {
+	padding: 25px;
+	margin: 0px auto;
+	width: 970px;
+}
+
+p {display: inline;}
+
+#score {
+	border: 1px solid black;
+	width:200px;
+	margin-left: 50px}
+
+#places{
+	padding:0px;
+	margin-top: 10px;
+	display:inline-block;
+	height: 200px;
+	text-align: center
+}
+
+#places form{
+	width: 225px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+#places h3, #places p{
+	width: 220px;
+	display:block;
+}
+
+#reset{
+	margin-left:  400px;
+	width: 100px;
+	height: 40px;
+	background-color: blue;
+}
+
+#logger{
+	width: 900px;
+	height: 200px;
+	border: 1px solid black;
+	overflow: scroll;
+}
+.red { color:red;}
+
+.green {color:green;}
